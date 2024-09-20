@@ -16,11 +16,31 @@
     "lint": "eslint \"{**/*,*}.{js, ts, jsx, tsx}\"",
     "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prodipsb/cz-npm-package.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "bugs": {
+    "url": "https://github.com/prodipsb/cz-npm-package/issues"
+  },
+  "files": [
+  "dist",
+  "LICENSE",
+  "README.md"
+  ],
   "keywords": [
-    "react"
+    "react",
+    "typescript"
   ],
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/prodipsb/cz-npm-package#readme",
   "devDependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/react": "^16.0.1",
